@@ -6,7 +6,7 @@ end
 def summon_captain_planet(array)
   collection = []
   counter = 0
-  while counter  < array.length
+  while counter < array.length
     counter += 1
     collection << yield(array[counter])
   end
