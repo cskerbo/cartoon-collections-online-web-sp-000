@@ -5,8 +5,8 @@ end
 
 def summon_captain_planet(array)
   summoning = []
-  summoning(array).each do |word|
-    word.upcase
+  array.each do |word|
+    summoning << word.upcase
   end
 summoning
 end
