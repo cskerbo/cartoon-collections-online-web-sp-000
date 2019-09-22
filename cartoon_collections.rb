@@ -6,7 +6,7 @@ end
 def summon_captain_planet(array)
   summoning = []
   array.each do |word|
-    summoning << word.upcase
+    summoning << word.capitalize
   end
 summoning
 end
