@@ -7,7 +7,7 @@ def summon_captain_planet(array)
   array.each do |word|
     word.upcase
   end
-array
+
 end
 
 def long_planeteer_calls
