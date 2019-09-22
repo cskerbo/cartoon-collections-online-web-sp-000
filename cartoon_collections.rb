@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   array.each do |word|
     summoning << word.capitalize+"!"
   end
-summoning
+  summoning
 end
 
 def long_planeteer_calls
