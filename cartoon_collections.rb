@@ -28,5 +28,6 @@ def find_the_cheese(array)
     array.each do |cheese|
     cheese_match << cheese
     return cheese_match
+    end
   end
 end
