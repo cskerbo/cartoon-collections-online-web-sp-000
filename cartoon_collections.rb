@@ -4,10 +4,11 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.each do |word|
+  summoning = []
+  summoning(array).each do |word|
     word.upcase
   end
-array
+summoning
 end
 
 def long_planeteer_calls
