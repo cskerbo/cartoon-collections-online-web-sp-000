@@ -4,13 +4,8 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  collection = []
-  counter = 0
-  while counter < array.length
-    counter += 1
-    collection << yield(array[counter])
-  end
-  collection
+array.each do {|word| word.capitalize+"!"}
+array
 end
 
 def long_planeteer_calls
