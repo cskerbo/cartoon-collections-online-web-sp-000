@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(array)
   array.each do |word|
-    word.capitalize
+    word.upcase
   end
 array
 end
