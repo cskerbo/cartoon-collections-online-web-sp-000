@@ -10,6 +10,7 @@ def summon_captain_planet(array)
     counter += 1
     collection << yield(array[counter])
   end
+  collection
 end
 
 def long_planeteer_calls
